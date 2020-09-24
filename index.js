@@ -5,7 +5,7 @@ const morgan   = require('morgan');
 
 // config vars
 const port = process.env.PORT        || 3000;
-const db   = process.env.MONGODB_URI || 'mongodb://localhost/notas';
+const db   = process.env.MONGODB_URI || 'mongodb+srv://CRUD:crudo@cluster0.sfxxb.gcp.mongodb.net/Hello-CRUD?retryWrites=true&w=majority';
 
 // crear app
 const app = express();
